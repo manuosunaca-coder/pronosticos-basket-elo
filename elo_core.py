@@ -32,13 +32,13 @@ def run(games):
     calib = []         # (prob local del modelo, ganó local) para medir el acierto histórico
     for g in played:
         lg, s = g["lg"], g["season"]
-        for t in (g["home"], g["away"]):
+        for t in (g.get("hid", g["home"]), g.get("aid", g["away"])):
             k = (lg, t)
             if k in elo and season_of[k] != s:
                 elo[k] = START + CARRY * (elo[k] - START)
             elo.setdefault(k, START)
             season_of[k] = s
-        kh, ka = (lg, g["home"]), (lg, g["away"])
+        kh, ka = (lg, g.get("hid", g["home"])), (lg, g.get("aid", g["away"]))
         rh, ra = elo[kh], elo[ka]
         dr = rh + HOME_ADV.get(lg, 80.0) - ra
         p = win_prob(dr)
@@ -50,14 +50,14 @@ def run(games):
         elo[kh], elo[ka] = rh + delta, ra - delta
         trend[kh] = (trend[kh] + [delta])[-5:]
         trend[ka] = (trend[ka] + [-delta])[-5:]
-        rec[(lg, g["home"], s)][0 if hw else 1] += 1
-        rec[(lg, g["away"], s)][1 if hw else 0] += 1
+        rec[(lg, kh[1], s)][0 if hw else 1] += 1
+        rec[(lg, ka[1], s)][1 if hw else 0] += 1
     return {"elo": elo, "trend": trend, "rec": rec, "season_of": season_of, "calib": calib, "n": len(played)}
 
 
 def predict(state, g):
     lg = g["lg"]
-    kh, ka = (lg, g["home"]), (lg, g["away"])
+    kh, ka = (lg, g.get("hid", g["home"])), (lg, g.get("aid", g["away"]))
     rh = state["elo"].get(kh, START)
     ra = state["elo"].get(ka, START)
     # equipo nuevo en temporada nueva: aplica el arrastre

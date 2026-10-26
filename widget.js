@@ -113,7 +113,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
           '<div class="pbe-teams"><span' + (u.pick === "1" ? ' class="on"' : "") + '>' + esc(u.home) + tr(u.tr_h) + rec(u.rec_h) + '</span><span class="vs">vs</span><span' + (u.pick === "2" ? ' class="on"' : "") + '>' + esc(u.away) + tr(u.tr_a) + rec(u.rec_a) + '</span></div>' +
           '<div class="pbe-pick"><span>Gana ' + esc(pickName(u)) + '</span><b>' + u.pick_prob + '%</b></div>' +
           '<div class="pbe-meter" title="Confianza ' + u.conf + ' de 10">' + seg + '<em>' + u.conf + '/10</em></div>' +
-          '<footer><span>Ventaja esperada</span><b>+' + u.margin + ' pts</b></footer></article>';
+          '<footer><span>Ventaja esperada <b>+' + u.margin + ' pts</b></span>' + (u.tv ? '<span title="Televisión">📺 ' + esc(u.tv.split(",")[0]) + '</span>' : '') + '</footer></article>';
       }).join("") + '</div>';
       return;
     }
@@ -163,7 +163,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
         if (u.pick === "1") hn = "<b>" + hn + "</b>"; else an = "<b>" + an + "</b>";
         h += '<tr class="' + (u.conf >= STRONG ? "pbe-sure" : "") + '" title="Elo ' + esc(u.home) + ': ' + u.elo_h + ' · Elo ' + esc(u.away) + ': ' + u.elo_a + '">' +
           '<td>' + esc(u.time) + '</td><td class="pbe-hm">' + tag(u.lg) + '</td>' +
-          '<td class="pbe-m">' + hn + tr(u.tr_h) + rec(u.rec_h) + ' – ' + an + tr(u.tr_a) + rec(u.rec_a) + '</td>' +
+          '<td class="pbe-m">' + hn + tr(u.tr_h) + rec(u.rec_h) + ' – ' + an + tr(u.tr_a) + rec(u.rec_a) + (u.tv ? '<br><small style="color:#64748b">📺 ' + esc(u.tv) + '</small>' : '') + '</td>' +
           '<td><div class="pbe-bar"><i style="width:' + u.p_home + '%"></i><i style="width:' + u.p_away + '%"></i></div><div class="pbe-pp"><span>' + u.p_home + '%</span><span>' + u.p_away + '%</span></div></td>' +
           '<td class="pbe-hm">+' + u.margin + '</td><td><span class="pbe-c c' + u.conf + '">' + u.conf + '</span></td></tr>';
       });
@@ -203,7 +203,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
         '<p><b>3. Probabilidad y ventaja esperada.</b> Con la diferencia de Elo calculamos la probabilidad de victoria de cada equipo y por cuántos puntos debería ganar el favorito (28 puntos Elo ≈ 1 punto).</p>' +
         '<p><b>4. Confianza 1-10.</b> Depende de lo probable que sea el pronóstico: 5/10 ronda el 70 % y 10/10 supera el 90 %. Los <b>pronósticos fuertes</b> son los de ' + STRONG + ' o más.</p>' +
         '<p><b>5. Transparencia.</b> Todos los pronósticos se guardan y se comprueban solos al terminar el partido. El "acierto del modelo" mide cuántas veces ganó el favorito del Elo en los partidos de esta temporada.</p>' +
-        '<p style="margin:0">Se actualiza automáticamente dos veces al día. Datos: Euroliga (api-live.euroleague.net) y TheSportsDB (ACB).</p></div>';
+        '<p style="margin:0">Se actualiza automáticamente dos veces al día. Datos: acb.com (Liga Endesa), api-live.euroleague.net (Euroliga) y TheSportsDB (temporadas anteriores de la ACB).</p></div>';
     }
     var views = { picks: picks, results: results, games: games, ranking: ranking, help: help };
     root.querySelectorAll(".pbe-tab").forEach(function (b) {
