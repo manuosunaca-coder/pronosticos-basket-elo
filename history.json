@@ -11,8 +11,8 @@
 "home": "Dubai Basketball",
 "away": "Paris Basketball",
 "pick": "1",
-"pick_prob": 72.9,
-"margin": 6.1,
+"pick_prob": 73.1,
+"margin": 6.2,
 "conf": 6,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -28,8 +28,8 @@
 "home": "Crvena Zvezda Meridianbet Belgrade",
 "away": "Maccabi Rapyd Tel Aviv",
 "pick": "1",
-"pick_prob": 72.1,
-"margin": 5.9,
+"pick_prob": 73.0,
+"margin": 6.2,
 "conf": 6,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -45,8 +45,8 @@
 "home": "FC Bayern Munich",
 "away": "FC Barcelona",
 "pick": "1",
-"pick_prob": 51.7,
-"margin": 0.4,
+"pick_prob": 52.1,
+"margin": 0.5,
 "conf": 1,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -62,9 +62,9 @@
 "home": "Panathinaikos AKTOR Athens",
 "away": "Armani Olimpia Milan",
 "pick": "1",
-"pick_prob": 77.7,
-"margin": 7.7,
-"conf": 7,
+"pick_prob": 79.9,
+"margin": 8.6,
+"conf": 8,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -79,9 +79,9 @@
 "home": "Valencia Basket",
 "away": "Fenerbahce Tarfin Istanbul",
 "pick": "1",
-"pick_prob": 67.0,
-"margin": 4.4,
-"conf": 5,
+"pick_prob": 61.5,
+"margin": 2.9,
+"conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -96,7 +96,7 @@
 "home": "Kosner Baskonia Vitoria-Gasteiz",
 "away": "Real Madrid",
 "pick": "2",
-"pick_prob": 64.8,
+"pick_prob": 65.0,
 "margin": 3.8,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
@@ -113,7 +113,7 @@
 "home": "Besiktas Istanbul",
 "away": "Olympiacos Piraeus",
 "pick": "2",
-"pick_prob": 60.5,
+"pick_prob": 60.3,
 "margin": 2.6,
 "conf": 3,
 "created": "2026-10-26T10:09+00:00"
@@ -164,9 +164,9 @@
 "home": "Virtus Bologna",
 "away": "Zalgiris Kaunas",
 "pick": "1",
-"pick_prob": 52.3,
-"margin": 0.6,
-"conf": 2,
+"pick_prob": 51.0,
+"margin": 0.3,
+"conf": 1,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -181,7 +181,7 @@
 "home": "Crvena Zvezda Meridianbet Belgrade",
 "away": "FC Bayern Munich",
 "pick": "1",
-"pick_prob": 71.9,
+"pick_prob": 71.7,
 "margin": 5.8,
 "conf": 6,
 "created": "2026-10-26T10:09+00:00"
@@ -198,8 +198,8 @@
 "home": "Maccabi Rapyd Tel Aviv",
 "away": "Paris Basketball",
 "pick": "1",
-"pick_prob": 62.8,
-"margin": 3.3,
+"pick_prob": 61.9,
+"margin": 3.0,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -215,9 +215,9 @@
 "home": "Real Madrid",
 "away": "Fenerbahce Tarfin Istanbul",
 "pick": "1",
-"pick_prob": 69.4,
-"margin": 5.1,
-"conf": 5,
+"pick_prob": 63.9,
+"margin": 3.6,
+"conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -232,7 +232,7 @@
 "home": "Dubai Basketball",
 "away": "Hapoel IBI Tel Aviv",
 "pick": "1",
-"pick_prob": 59.9,
+"pick_prob": 60.0,
 "margin": 2.5,
 "conf": 3,
 "created": "2026-10-26T10:09+00:00"
@@ -249,8 +249,8 @@
 "home": "Anadolu Efes Istanbul",
 "away": "Panathinaikos AKTOR Athens",
 "pick": "2",
-"pick_prob": 50.5,
-"margin": 0.1,
+"pick_prob": 50.7,
+"margin": 0.2,
 "conf": 1,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -266,7 +266,7 @@
 "home": "Zalgiris Kaunas",
 "away": "Partizan Mozzart Bet Belgrade",
 "pick": "1",
-"pick_prob": 65.8,
+"pick_prob": 66.1,
 "margin": 4.1,
 "conf": 5,
 "created": "2026-10-26T10:09+00:00"
@@ -283,8 +283,8 @@
 "home": "LDLC ASVEL Villeurbanne",
 "away": "Kosner Baskonia Vitoria-Gasteiz",
 "pick": "1",
-"pick_prob": 57.5,
-"margin": 1.9,
+"pick_prob": 57.8,
+"margin": 2.0,
 "conf": 3,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -300,8 +300,8 @@
 "home": "Olympiacos Piraeus",
 "away": "Armani Olimpia Milan",
 "pick": "1",
-"pick_prob": 84.5,
-"margin": 10.5,
+"pick_prob": 86.1,
+"margin": 11.3,
 "conf": 9,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -317,8 +317,8 @@
 "home": "Virtus Bologna",
 "away": "Besiktas Istanbul",
 "pick": "1",
-"pick_prob": 55.6,
-"margin": 1.4,
+"pick_prob": 54.3,
+"margin": 1.1,
 "conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -334,8 +334,8 @@
 "home": "FC Barcelona",
 "away": "Valencia Basket",
 "pick": "1",
-"pick_prob": 54.3,
-"margin": 1.1,
+"pick_prob": 54.2,
+"margin": 1.0,
 "conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -357,6 +357,25 @@
 "created": "2026-10-26T10:09+00:00"
 },
 {
+"key": "ACB|2026-10-31|Casademont Zaragoza|FIATC Girona",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-10-31",
+"time": "18:00",
+"round": "J6",
+"home": "Casademont Zaragoza",
+"away": "FIATC Girona",
+"hid": "zaragoza",
+"aid": "girona",
+"pick": "1",
+"pick_prob": 57.0,
+"margin": 1.8,
+"conf": 3,
+"created": "2026-10-26T10:26+00:00"
+},
+{
 "key": "ACB|2026-10-31|CB Murcia|Força Lleida CE",
 "lg": "ACB",
 "league": "Liga Endesa",
@@ -374,6 +393,25 @@
 "created": "2026-10-26T10:09+00:00"
 },
 {
+"key": "ACB|2026-10-31|UCAM Murcia|iLERNA Lleida",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-10-31",
+"time": "19:30",
+"round": "J6",
+"home": "UCAM Murcia",
+"away": "iLERNA Lleida",
+"hid": "murcia",
+"aid": "lleida",
+"pick": "1",
+"pick_prob": 78.3,
+"margin": 8.0,
+"conf": 7,
+"created": "2026-10-26T10:26+00:00"
+},
+{
 "key": "ACB|2026-10-31|Básquet Coruña|CB 1939 Canarias",
 "lg": "ACB",
 "league": "Liga Endesa",
@@ -389,6 +427,25 @@
 "margin": 3.1,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
+},
+{
+"key": "ACB|2026-10-31|Leyma Coruña|La Laguna Tenerife",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-10-31",
+"time": "21:00",
+"round": "J6",
+"home": "Leyma Coruña",
+"away": "La Laguna Tenerife",
+"hid": "coruna",
+"aid": "tenerife",
+"pick": "2",
+"pick_prob": 68.6,
+"margin": 4.8,
+"conf": 5,
+"created": "2026-10-26T10:26+00:00"
 },
 {
 "key": "ACB|2026-11-01|Joventut Badalona|Bilbao Basket",
@@ -425,6 +482,44 @@
 "created": "2026-10-26T10:09+00:00"
 },
 {
+"key": "ACB|2026-11-01|Asisa Joventut|Surne Bilbao",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "12:00",
+"round": "J6",
+"home": "Asisa Joventut",
+"away": "Surne Bilbao",
+"hid": "joventut",
+"aid": "bilbao",
+"pick": "1",
+"pick_prob": 66.8,
+"margin": 4.3,
+"conf": 5,
+"created": "2026-10-26T10:26+00:00"
+},
+{
+"key": "ACB|2026-11-01|Monbus Obradoiro|Río Breogán",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "12:00",
+"round": "J6",
+"home": "Monbus Obradoiro",
+"away": "Río Breogán",
+"hid": "obradoiro",
+"aid": "breogan",
+"pick": "1",
+"pick_prob": 63.2,
+"margin": 3.4,
+"conf": 4,
+"created": "2026-10-26T10:26+00:00"
+},
+{
 "key": "ACB|2026-11-01|Real Madrid Baloncesto|CB San Pablo Burgos",
 "lg": "ACB",
 "league": "Liga Endesa",
@@ -440,6 +535,25 @@
 "margin": 8.7,
 "conf": 8,
 "created": "2026-10-26T10:09+00:00"
+},
+{
+"key": "ACB|2026-11-01|Real Madrid|Recoletas Salud San Pablo Burgos",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "12:30",
+"round": "J6",
+"home": "Real Madrid",
+"away": "Recoletas Salud San Pablo Burgos",
+"hid": "realmadrid",
+"aid": "burgos",
+"pick": "1",
+"pick_prob": 80.9,
+"margin": 9.0,
+"conf": 8,
+"created": "2026-10-26T10:26+00:00"
 },
 {
 "key": "ACB|2026-11-01|Baskonia|Basquet Manresa",
@@ -459,6 +573,25 @@
 "created": "2026-10-26T10:09+00:00"
 },
 {
+"key": "ACB|2026-11-01|Kosner Baskonia|Kids&Us Manresa",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "17:00",
+"round": "J6",
+"home": "Kosner Baskonia",
+"away": "Kids&Us Manresa",
+"hid": "baskonia",
+"aid": "manresa",
+"pick": "1",
+"pick_prob": 79.4,
+"margin": 8.4,
+"conf": 8,
+"created": "2026-10-26T10:26+00:00"
+},
+{
 "key": "ACB|2026-11-01|BC Andorra|Valencia Basket",
 "lg": "ACB",
 "league": "Liga Endesa",
@@ -474,6 +607,25 @@
 "margin": 3.0,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
+},
+{
+"key": "ACB|2026-11-01|MoraBanc Andorra|Valencia Basket",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "18:00",
+"round": "J6",
+"home": "MoraBanc Andorra",
+"away": "Valencia Basket",
+"hid": "andorra",
+"aid": "valencia",
+"pick": "2",
+"pick_prob": 73.6,
+"margin": 6.4,
+"conf": 6,
+"created": "2026-10-26T10:26+00:00"
 },
 {
 "key": "ACB|2026-11-01|Baloncesto Málaga|FC Barcelona Basquet",
@@ -493,6 +645,25 @@
 "created": "2026-10-26T10:09+00:00"
 },
 {
+"key": "ACB|2026-11-01|Unicaja|Barça",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-11-01",
+"time": "19:00",
+"round": "J6",
+"home": "Unicaja",
+"away": "Barça",
+"hid": "unicaja",
+"aid": "barca",
+"pick": "1",
+"pick_prob": 51.7,
+"margin": 0.4,
+"conf": 1,
+"created": "2026-10-26T10:26+00:00"
+},
+{
 "key": "EL|2026-11-04|Real Madrid|Panathinaikos AKTOR Athens",
 "lg": "EL",
 "league": "Euroliga",
@@ -504,9 +675,9 @@
 "home": "Real Madrid",
 "away": "Panathinaikos AKTOR Athens",
 "pick": "1",
-"pick_prob": 65.6,
-"margin": 4.0,
-"conf": 5,
+"pick_prob": 65.3,
+"margin": 3.9,
+"conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -521,8 +692,8 @@
 "home": "Anadolu Efes Istanbul",
 "away": "Paris Basketball",
 "pick": "1",
-"pick_prob": 67.2,
-"margin": 4.4,
+"pick_prob": 67.3,
+"margin": 4.5,
 "conf": 5,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -538,9 +709,9 @@
 "home": "Fenerbahce Tarfin Istanbul",
 "away": "Kosner Baskonia Vitoria-Gasteiz",
 "pick": "1",
-"pick_prob": 77.9,
-"margin": 7.8,
-"conf": 7,
+"pick_prob": 82.0,
+"margin": 9.4,
+"conf": 8,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -555,7 +726,7 @@
 "home": "Hapoel IBI Tel Aviv",
 "away": "FC Barcelona",
 "pick": "1",
-"pick_prob": 64.9,
+"pick_prob": 65.0,
 "margin": 3.8,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
@@ -572,7 +743,7 @@
 "home": "LDLC ASVEL Villeurbanne",
 "away": "FC Bayern Munich",
 "pick": "1",
-"pick_prob": 51.3,
+"pick_prob": 51.0,
 "margin": 0.3,
 "conf": 1,
 "created": "2026-10-26T10:09+00:00"
@@ -589,8 +760,8 @@
 "home": "Armani Olimpia Milan",
 "away": "Valencia Basket",
 "pick": "2",
-"pick_prob": 57.8,
-"margin": 2.0,
+"pick_prob": 60.8,
+"margin": 2.7,
 "conf": 3,
 "created": "2026-10-26T10:09+00:00"
 }
