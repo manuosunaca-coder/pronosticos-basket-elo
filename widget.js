@@ -51,7 +51,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
 .pbe-teams .vs{font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:.1em}\
 .pbe-teams .on{font-weight:800;color:var(--o)}.pbe-teams small{color:var(--mut);font-size:11px;font-weight:400}\
 .pbe-pick{display:flex;justify-content:space-between;align-items:center;background:var(--n);color:#fff;border-radius:10px;padding:8px 12px;font-weight:600;font-size:14px}\
-.pbe-pick b{font-size:20px;font-variant-numeric:tabular-nums;color:#fdba74}\
+.pbe-pick b{white-space:nowrap;font-size:20px;font-variant-numeric:tabular-nums;color:#fdba74}\
 .pbe-meter{display:flex;align-items:center;gap:3px}\
 .pbe-meter i{flex:1;height:6px;border-radius:3px;background:#e2e8f0}.pbe-meter i.on{background:#fb923c}.pbe-card.hot .pbe-meter i.on{background:var(--o)}\
 .pbe-meter em{font-style:normal;font-size:12px;font-weight:800;margin-left:6px;color:var(--ink)}\
