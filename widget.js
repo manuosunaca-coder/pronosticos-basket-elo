@@ -75,7 +75,10 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
     root.innerHTML = '<div class="pbe-empty">Cargando pronósticos…</div>';
     fetch(src + (src.indexOf("?") < 0 ? "?" : "&") + "t=" + Math.floor(Date.now() / 600000))
       .then(function (r) { return r.json(); })
-      .then(function (d) { render(root, d, root.getAttribute("data-view") || "all"); })
+      .then(function (d) {
+        var V = { completo: "all", todo: "all", pronosticos: "picks", resultados: "results", aciertos: "results", partidos: "games", cifras: "stats", tarjetas: "cards", ayuda: "help" };
+        var v = root.getAttribute("data-view") || "all"; render(root, d, V[v] || v);
+      })
       .catch(function () { root.innerHTML = '<div class="pbe-empty">No se han podido cargar los pronósticos. Inténtalo en unos minutos.</div>'; });
   }
 
@@ -84,7 +87,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
   function render(root, d, view) {
     var STRONG = (d.model && d.model.strong) || 7, now = Date.now();
     d.upcoming = d.upcoming.filter(function (u) { var k = Date.parse(u.date + "T" + u.time + ":00+01:00"); return isNaN(k) || k > now - 3 * 3600 * 1000; });
-    var lg = root.getAttribute("data-lg") || "";
+    var lg = root.getAttribute("data-lg") || ({ acb: "ACB", euroliga: "EL", el: "EL" })[(root.getAttribute("data-liga") || "").toLowerCase()] || "";
     var model = d.stats.season_model;
     if (lg) {
       var f = function (x) { return x.lg === lg; };
@@ -118,6 +121,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
       return;
     }
 
+    if (view === "stats") { root.innerHTML = tiles(); return; }
     function tiles() {
       var a = d.stats.all, s = d.stats.strong;
       function t(v, l) { return '<div class="pbe-stat"><b>' + v + '</b><span>' + l + '</span></div>'; }
@@ -193,7 +197,7 @@ font:14px/1.45 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:
     function ranking() {
       body.innerHTML = '<div class="pbe-rg">' + d.leagues.map(function (l) {
         return '<div><h4 style="margin:0 0 6px">' + tag(l.lg) + ' ' + esc(l.league) + ' ' + esc(d.season) + '</h4><div class="pbe-wrap"><table><thead><tr><th>#</th><th>Equipo</th><th>V-D</th><th>Elo</th></tr></thead><tbody>' +
-          l.teams.map(function (t, i) { return '<tr><td>' + (i + 1) + '</td><td>' + esc(t.team) + tr(t.tr) + '</td><td>' + t.w + '-' + t.l + '</td><td><b>' + t.elo + '</b></td></tr>'; }).join("") + '</tbody></table></div></div>';
+          l.teams.slice(0, +(root.getAttribute("data-max") || 40)).map(function (t, i) { return '<tr><td>' + (i + 1) + '</td><td>' + esc(t.team) + tr(t.tr) + '</td><td>' + t.w + '-' + t.l + '</td><td><b>' + t.elo + '</b></td></tr>'; }).join("") + '</tbody></table></div></div>';
       }).join("") + '</div>';
     }
     function help() {
