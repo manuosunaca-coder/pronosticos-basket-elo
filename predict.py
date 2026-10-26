@@ -15,6 +15,7 @@ import re
 import sys
 import time
 import unicodedata
+from html import unescape
 import urllib.error
 import urllib.request
 from collections import defaultdict
@@ -33,7 +34,7 @@ SEASONS_BACK = 3
 STRONG = 7
 DAYS_AHEAD = 10
 HISTORY_KEEP = 3000
-TSDB_BUDGET = 40   # máximo de peticiones a TheSportsDB por ejecución (límite de la API gratis)
+TSDB_BUDGET = 20   # máximo de peticiones a TheSportsDB por ejecución (límite de la API gratis)
 
 # Equivalencias de nombres ACB (TheSportsDB usa nombres distintos a acb.com)
 ACB_KEYS = [
@@ -43,7 +44,7 @@ ACB_KEYS = [
     ("girona", ["girona"]), ("zaragoza", ["zaragoza"]), ("granada", ["granada"]), ("lleida", ["lleida"]),
     ("andorra", ["andorra"]), ("realmadrid", ["real madrid"]), ("burgos", ["burgos", "san pablo"]),
     ("breogan", ["breogan"]), ("bilbao", ["bilbao"]), ("murcia", ["murcia"]), ("valencia", ["valencia"]),
-    ("obradoiro", ["obradoiro"]), ("palencia", ["palencia"]), ("fuenlabrada", ["fuenlabrada"]),
+    ("obradoiro", ["obradoiro"]), ("coruna", ["coruna"]), ("palencia", ["palencia"]), ("fuenlabrada", ["fuenlabrada"]),
     ("estudiantes", ["estudiantes"]), ("betis", ["betis", "sevilla"]),
 ]
 
@@ -175,6 +176,28 @@ def load_acb_official():
     return out, year
 
 
+# ------------------------------------------------------------------ ACB (basketball-reference, temporadas pasadas)
+def load_acb_bbref(y):
+    try:
+        h = http(f"https://www.basketball-reference.com/international/spain-liga-acb/{y + 1}-schedule.html", timeout=60).decode("utf-8", "ignore")
+    except Exception as e:  # noqa
+        log(f"  ! basketball-reference {y}: {e}")
+        return []
+    out = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", h, re.S):
+        cells = {k: re.sub(r"<[^>]+>", "", v).strip() for k, v in re.findall(r'data-stat="([a-z_]+)"[^>]*>(.*?)</t[dh]>', row, re.S)}
+        try:
+            d = datetime.strptime(cells["date_game"], "%a, %b %d, %Y").date()
+            hs, as_ = int(cells["home_pts"]), int(cells["visitor_pts"])
+        except Exception:  # noqa
+            continue
+        home, away = unescape(cells["home_team_name"]), unescape(cells["visitor_team_name"])
+        out.append({"lg": "ACB", "season": y, "date": d.isoformat(), "time": "18:00", "home": home, "away": away,
+                    "hid": acb_key(home), "aid": acb_key(away), "hs": hs, "as": as_, "round": "", "tv": ""})
+    log(f"  ACB {y} (basketball-reference): {len(out)} partidos")
+    return out
+
+
 # ------------------------------------------------------------------ ACB (TheSportsDB, temporadas pasadas)
 def load_acb_tsdb(y, budget):
     """Descarga jornada a jornada. Guarda el progreso parcial para continuar en la siguiente ejecución."""
@@ -269,8 +292,13 @@ def main():
     for y in seasons[:-1]:
         g = read_cache(f"ACB_{y}", 280)
         if g is None:
-            g, used = load_acb_tsdb(y, budget)
-            budget -= used
+            g = load_acb_bbref(y)
+            if len(g) >= 280:
+                save_cache(f"ACB_{y}", g)
+            elif budget > 0:
+                g, used = load_acb_tsdb(y, budget)
+                budget -= used
+            time.sleep(4)
         games += g
 
     played = [g for g in games if g["hs"] is not None]
