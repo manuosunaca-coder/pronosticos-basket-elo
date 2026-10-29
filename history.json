@@ -134,7 +134,10 @@
 "pick_prob": 60.3,
 "margin": 2.6,
 "conf": 3,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "73-81",
+"result": "2",
+"win": true
 },
 {
 "key": "EL|2026-10-28|Hapoel IBI Tel Aviv|Anadolu Efes Istanbul",
@@ -151,7 +154,10 @@
 "pick_prob": 70.1,
 "margin": 5.3,
 "conf": 6,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "118-88",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-10-28|LDLC ASVEL Villeurbanne|Partizan Mozzart Bet Belgrade",
@@ -168,7 +174,10 @@
 "pick_prob": 53.3,
 "margin": 0.8,
 "conf": 2,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "82-75",
+"result": "1",
+"win": false
 },
 {
 "key": "EL|2026-10-28|Virtus Bologna|Zalgiris Kaunas",
@@ -185,7 +194,10 @@
 "pick_prob": 51.0,
 "margin": 0.3,
 "conf": 1,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "74-91",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-10-29|Crvena Zvezda Meridianbet Belgrade|FC Bayern Munich",
@@ -250,9 +262,9 @@
 "home": "Dubai Basketball",
 "away": "Hapoel IBI Tel Aviv",
 "pick": "1",
-"pick_prob": 58.2,
-"margin": 2.1,
-"conf": 3,
+"pick_prob": 56.6,
+"margin": 1.6,
+"conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -267,9 +279,9 @@
 "home": "Anadolu Efes Istanbul",
 "away": "Panathinaikos AKTOR Athens",
 "pick": "2",
-"pick_prob": 51.0,
-"margin": 0.3,
-"conf": 1,
+"pick_prob": 52.7,
+"margin": 0.7,
+"conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -284,8 +296,8 @@
 "home": "Zalgiris Kaunas",
 "away": "Partizan Mozzart Bet Belgrade",
 "pick": "1",
-"pick_prob": 66.1,
-"margin": 4.1,
+"pick_prob": 69.2,
+"margin": 5.0,
 "conf": 5,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -301,8 +313,8 @@
 "home": "LDLC ASVEL Villeurbanne",
 "away": "Kosner Baskonia Vitoria-Gasteiz",
 "pick": "1",
-"pick_prob": 59.2,
-"margin": 2.3,
+"pick_prob": 60.5,
+"margin": 2.6,
 "conf": 3,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -318,8 +330,8 @@
 "home": "Olympiacos Piraeus",
 "away": "Armani Olimpia Milan",
 "pick": "1",
-"pick_prob": 86.3,
-"margin": 11.4,
+"pick_prob": 86.7,
+"margin": 11.6,
 "conf": 9,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -335,8 +347,8 @@
 "home": "Virtus Bologna",
 "away": "Besiktas Istanbul",
 "pick": "1",
-"pick_prob": 54.3,
-"margin": 1.1,
+"pick_prob": 53.1,
+"margin": 0.8,
 "conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -710,9 +722,9 @@
 "home": "Anadolu Efes Istanbul",
 "away": "Paris Basketball",
 "pick": "1",
-"pick_prob": 65.6,
-"margin": 4.0,
-"conf": 5,
+"pick_prob": 64.1,
+"margin": 3.6,
+"conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -744,9 +756,9 @@
 "home": "Hapoel IBI Tel Aviv",
 "away": "FC Barcelona",
 "pick": "1",
-"pick_prob": 64.1,
-"margin": 3.6,
-"conf": 4,
+"pick_prob": 65.6,
+"margin": 4.0,
+"conf": 5,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -761,9 +773,9 @@
 "home": "LDLC ASVEL Villeurbanne",
 "away": "FC Bayern Munich",
 "pick": "1",
-"pick_prob": 52.0,
-"margin": 0.5,
-"conf": 1,
+"pick_prob": 53.3,
+"margin": 0.8,
+"conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
 {
@@ -797,9 +809,9 @@
 "hid": "BES",
 "aid": "ZAL",
 "pick": "1",
-"pick_prob": 58.9,
-"margin": 2.2,
-"conf": 3,
+"pick_prob": 55.8,
+"margin": 1.5,
+"conf": 2,
 "created": "2026-10-27T07:13+00:00"
 },
 {
@@ -816,8 +828,8 @@
 "hid": "OLY",
 "aid": "RED",
 "pick": "1",
-"pick_prob": 75.6,
-"margin": 7.0,
+"pick_prob": 76.3,
+"margin": 7.3,
 "conf": 7,
 "created": "2026-10-27T07:13+00:00"
 },
@@ -834,9 +846,9 @@
 "away": "Dubai Basketball",
 "hid": "VIR",
 "aid": "DUB",
-"pick": "1",
-"pick_prob": 50.5,
-"margin": 0.1,
+"pick": "2",
+"pick_prob": 51.7,
+"margin": 0.4,
 "conf": 1,
 "created": "2026-10-27T07:13+00:00"
 },
@@ -854,8 +866,8 @@
 "hid": "PAR",
 "aid": "TEL",
 "pick": "1",
-"pick_prob": 68.5,
-"margin": 4.8,
+"pick_prob": 67.3,
+"margin": 4.5,
 "conf": 5,
 "created": "2026-10-27T07:13+00:00"
 },
