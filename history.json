@@ -214,7 +214,10 @@
 "pick_prob": 73.5,
 "margin": 6.3,
 "conf": 6,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "103-73",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-10-29|Maccabi Rapyd Tel Aviv|Paris Basketball",
@@ -231,7 +234,10 @@
 "pick_prob": 59.0,
 "margin": 2.2,
 "conf": 3,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "94-99",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-10-29|Real Madrid|Fenerbahce Tarfin Istanbul",
@@ -248,7 +254,10 @@
 "pick_prob": 66.1,
 "margin": 4.1,
 "conf": 5,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "95-76",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-10-30|Dubai Basketball|Hapoel IBI Tel Aviv",
@@ -705,8 +714,8 @@
 "home": "Real Madrid",
 "away": "Panathinaikos AKTOR Athens",
 "pick": "1",
-"pick_prob": 66.3,
-"margin": 4.2,
+"pick_prob": 67.5,
+"margin": 4.5,
 "conf": 5,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -722,8 +731,8 @@
 "home": "Anadolu Efes Istanbul",
 "away": "Paris Basketball",
 "pick": "1",
-"pick_prob": 64.1,
-"margin": 3.6,
+"pick_prob": 62.9,
+"margin": 3.3,
 "conf": 4,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -739,8 +748,8 @@
 "home": "Fenerbahce Tarfin Istanbul",
 "away": "Kosner Baskonia Vitoria-Gasteiz",
 "pick": "1",
-"pick_prob": 82.2,
-"margin": 9.5,
+"pick_prob": 81.4,
+"margin": 9.2,
 "conf": 8,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -751,7 +760,7 @@
 "flag": "eu",
 "season": 2026,
 "date": "2026-11-05",
-"time": "19:00",
+"time": "19:45",
 "round": "J10",
 "home": "Hapoel IBI Tel Aviv",
 "away": "FC Barcelona",
@@ -773,8 +782,8 @@
 "home": "LDLC ASVEL Villeurbanne",
 "away": "FC Bayern Munich",
 "pick": "1",
-"pick_prob": 53.3,
-"margin": 0.8,
+"pick_prob": 54.8,
+"margin": 1.2,
 "conf": 2,
 "created": "2026-10-26T10:09+00:00"
 },
@@ -828,8 +837,8 @@
 "hid": "OLY",
 "aid": "RED",
 "pick": "1",
-"pick_prob": 76.3,
-"margin": 7.3,
+"pick_prob": 75.3,
+"margin": 6.9,
 "conf": 7,
 "created": "2026-10-27T07:13+00:00"
 },
@@ -866,8 +875,8 @@
 "hid": "PAR",
 "aid": "TEL",
 "pick": "1",
-"pick_prob": 67.3,
-"margin": 4.5,
+"pick_prob": 68.4,
+"margin": 4.8,
 "conf": 5,
 "created": "2026-10-27T07:13+00:00"
 },
