@@ -433,7 +433,10 @@
 "pick_prob": 57.0,
 "margin": 1.8,
 "conf": 3,
-"created": "2026-10-26T10:26+00:00"
+"created": "2026-10-26T10:26+00:00",
+"score": "107-78",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-10-31|CB Murcia|Força Lleida CE",
@@ -469,7 +472,10 @@
 "pick_prob": 78.3,
 "margin": 8.0,
 "conf": 7,
-"created": "2026-10-26T10:26+00:00"
+"created": "2026-10-26T10:26+00:00",
+"score": "125-98",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-10-31|Básquet Coruña|CB 1939 Canarias",
@@ -505,7 +511,10 @@
 "pick_prob": 68.6,
 "margin": 4.8,
 "conf": 5,
-"created": "2026-10-26T10:26+00:00"
+"created": "2026-10-26T10:26+00:00",
+"score": "93-89",
+"result": "1",
+"win": false
 },
 {
 "key": "ACB|2026-11-01|Joventut Badalona|Bilbao Basket",
@@ -934,8 +943,8 @@
 "hid": "girona",
 "aid": "bilbao",
 "pick": "1",
-"pick_prob": 55.7,
-"margin": 1.4,
+"pick_prob": 53.2,
+"margin": 0.8,
 "conf": 2,
 "created": "2026-10-28T07:25+00:00"
 },
@@ -953,8 +962,8 @@
 "hid": "lleida",
 "aid": "baskonia",
 "pick": "2",
-"pick_prob": 66.7,
-"margin": 4.3,
+"pick_prob": 67.7,
+"margin": 4.6,
 "conf": 5,
 "created": "2026-10-28T07:25+00:00"
 },
@@ -1010,8 +1019,8 @@
 "hid": "tenerife",
 "aid": "joventut",
 "pick": "1",
-"pick_prob": 63.3,
-"margin": 3.4,
+"pick_prob": 62.0,
+"margin": 3.0,
 "conf": 4,
 "created": "2026-10-29T07:26+00:00"
 },
@@ -1028,9 +1037,9 @@
 "away": "Unicaja",
 "hid": "zaragoza",
 "aid": "unicaja",
-"pick": "2",
-"pick_prob": 51.5,
-"margin": 0.4,
+"pick": "1",
+"pick_prob": 51.0,
+"margin": 0.3,
 "conf": 1,
 "created": "2026-10-29T07:26+00:00"
 },
@@ -1048,9 +1057,9 @@
 "hid": "coruna",
 "aid": "andorra",
 "pick": "1",
-"pick_prob": 51.7,
-"margin": 0.4,
-"conf": 1,
+"pick_prob": 53.1,
+"margin": 0.8,
+"conf": 2,
 "created": "2026-10-29T07:26+00:00"
 },
 {
@@ -1067,9 +1076,47 @@
 "hid": "realmadrid",
 "aid": "murcia",
 "pick": "1",
-"pick_prob": 75.9,
-"margin": 7.1,
+"pick_prob": 75.1,
+"margin": 6.8,
 "conf": 7,
 "created": "2026-10-29T07:26+00:00"
+},
+{
+"key": "EL|2026-11-11|Partizan Mozzart Bet Belgrade|Kosner Baskonia Vitoria-Gasteiz",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-11-11",
+"time": "20:45",
+"round": "J11",
+"home": "Partizan Mozzart Bet Belgrade",
+"away": "Kosner Baskonia Vitoria-Gasteiz",
+"hid": "PAR",
+"aid": "BAS",
+"pick": "1",
+"pick_prob": 72.6,
+"margin": 6.0,
+"conf": 6,
+"created": "2026-11-01T07:26+00:00"
+},
+{
+"key": "EL|2026-11-11|Paris Basketball|Fenerbahce Tarfin Istanbul",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-11-11",
+"time": "20:45",
+"round": "J11",
+"home": "Paris Basketball",
+"away": "Fenerbahce Tarfin Istanbul",
+"hid": "PRS",
+"aid": "ULK",
+"pick": "2",
+"pick_prob": 52.5,
+"margin": 0.6,
+"conf": 2,
+"created": "2026-11-01T07:26+00:00"
 }
 ]
