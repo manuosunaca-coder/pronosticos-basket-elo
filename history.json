@@ -785,7 +785,10 @@
 "pick_prob": 64.8,
 "margin": 3.8,
 "conf": 4,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "90-95",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-05|Fenerbahce Tarfin Istanbul|Kosner Baskonia Vitoria-Gasteiz",
@@ -802,7 +805,10 @@
 "pick_prob": 82.3,
 "margin": 9.5,
 "conf": 8,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "84-65",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-11-05|Hapoel IBI Tel Aviv|FC Barcelona",
@@ -819,7 +825,10 @@
 "pick_prob": 63.4,
 "margin": 3.4,
 "conf": 4,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "90-93",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-05|LDLC ASVEL Villeurbanne|FC Bayern Munich",
@@ -836,7 +845,10 @@
 "pick_prob": 56.2,
 "margin": 1.5,
 "conf": 2,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "95-99",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-05|Armani Olimpia Milan|Valencia Basket",
@@ -853,7 +865,10 @@
 "pick_prob": 61.5,
 "margin": 2.9,
 "conf": 4,
-"created": "2026-10-26T10:09+00:00"
+"created": "2026-10-26T10:09+00:00",
+"score": "73-84",
+"result": "2",
+"win": true
 },
 {
 "key": "EL|2026-11-06|Besiktas Istanbul|Zalgiris Kaunas",
@@ -1116,8 +1131,8 @@
 "hid": "PAR",
 "aid": "BAS",
 "pick": "1",
-"pick_prob": 72.6,
-"margin": 6.0,
+"pick_prob": 73.1,
+"margin": 6.2,
 "conf": 6,
 "created": "2026-11-01T07:26+00:00"
 },
@@ -1135,9 +1150,9 @@
 "hid": "PRS",
 "aid": "ULK",
 "pick": "2",
-"pick_prob": 52.5,
-"margin": 0.6,
-"conf": 2,
+"pick_prob": 51.7,
+"margin": 0.4,
+"conf": 1,
 "created": "2026-11-01T07:26+00:00"
 },
 {
@@ -1154,8 +1169,8 @@
 "hid": "TEL",
 "aid": "HTA",
 "pick": "2",
-"pick_prob": 55.3,
-"margin": 1.3,
+"pick_prob": 54.2,
+"margin": 1.0,
 "conf": 2,
 "created": "2026-11-02T07:48+00:00"
 },
@@ -1192,7 +1207,7 @@
 "hid": "PAM",
 "aid": "MUN",
 "pick": "1",
-"pick_prob": 78.9,
+"pick_prob": 79.0,
 "margin": 8.2,
 "conf": 8,
 "created": "2026-11-02T07:48+00:00"
@@ -1211,8 +1226,8 @@
 "hid": "MIL",
 "aid": "ZAL",
 "pick": "2",
-"pick_prob": 55.0,
-"margin": 1.3,
+"pick_prob": 56.2,
+"margin": 1.5,
 "conf": 2,
 "created": "2026-11-02T07:48+00:00"
 },
@@ -1249,9 +1264,9 @@
 "hid": "IST",
 "aid": "VIR",
 "pick": "1",
-"pick_prob": 70.8,
-"margin": 5.5,
-"conf": 6,
+"pick_prob": 69.6,
+"margin": 5.2,
+"conf": 5,
 "created": "2026-11-03T07:37+00:00"
 },
 {
@@ -1268,9 +1283,9 @@
 "hid": "PAN",
 "aid": "BAR",
 "pick": "1",
-"pick_prob": 66.4,
-"margin": 4.2,
-"conf": 5,
+"pick_prob": 65.4,
+"margin": 4.0,
+"conf": 4,
 "created": "2026-11-03T07:37+00:00"
 },
 {
@@ -1287,9 +1302,9 @@
 "hid": "ASV",
 "aid": "BES",
 "pick": "2",
-"pick_prob": 51.6,
-"margin": 0.4,
-"conf": 1,
+"pick_prob": 52.6,
+"margin": 0.7,
+"conf": 2,
 "created": "2026-11-03T07:37+00:00"
 },
 {
