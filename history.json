@@ -975,7 +975,10 @@
 "pick_prob": 52.5,
 "margin": 0.6,
 "conf": 2,
-"created": "2026-10-28T07:25+00:00"
+"created": "2026-10-28T07:25+00:00",
+"score": "100-99",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-07|FIATC Girona|Surne Bilbao",
@@ -994,7 +997,10 @@
 "pick_prob": 52.0,
 "margin": 0.5,
 "conf": 1,
-"created": "2026-10-28T07:25+00:00"
+"created": "2026-10-28T07:25+00:00",
+"score": "92-87",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-07|iLERNA Lleida|Kosner Baskonia",
@@ -1013,7 +1019,10 @@
 "pick_prob": 68.4,
 "margin": 4.8,
 "conf": 5,
-"created": "2026-10-28T07:25+00:00"
+"created": "2026-10-28T07:25+00:00",
+"score": "93-98",
+"result": "2",
+"win": true
 },
 {
 "key": "ACB|2026-11-08|Barça|Río Breogán",
@@ -1409,8 +1418,8 @@
 "hid": "lleida",
 "aid": "manresa",
 "pick": "1",
-"pick_prob": 55.4,
-"margin": 1.3,
+"pick_prob": 54.3,
+"margin": 1.1,
 "conf": 2,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1428,8 +1437,8 @@
 "hid": "unicaja",
 "aid": "girona",
 "pick": "1",
-"pick_prob": 69.9,
-"margin": 5.2,
+"pick_prob": 69.1,
+"margin": 5.0,
 "conf": 5,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1447,8 +1456,8 @@
 "hid": "barca",
 "aid": "obradoiro",
 "pick": "1",
-"pick_prob": 75.2,
-"margin": 6.9,
+"pick_prob": 75.6,
+"margin": 7.0,
 "conf": 7,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1466,8 +1475,8 @@
 "hid": "bilbao",
 "aid": "murcia",
 "pick": "1",
-"pick_prob": 55.6,
-"margin": 1.4,
+"pick_prob": 54.6,
+"margin": 1.1,
 "conf": 2,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1485,8 +1494,8 @@
 "hid": "baskonia",
 "aid": "realmadrid",
 "pick": "1",
-"pick_prob": 50.2,
-"margin": 0.0,
+"pick_prob": 50.8,
+"margin": 0.2,
 "conf": 1,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1660,5 +1669,24 @@
 "margin": 2.9,
 "conf": 4,
 "created": "2026-11-07T07:27+00:00"
+},
+{
+"key": "EL|2026-11-18|Besiktas Istanbul|Real Madrid",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-11-18",
+"time": "18:00",
+"round": "J12",
+"home": "Besiktas Istanbul",
+"away": "Real Madrid",
+"hid": "BES",
+"aid": "MAD",
+"pick": "2",
+"pick_prob": 57.1,
+"margin": 1.8,
+"conf": 3,
+"created": "2026-11-08T07:28+00:00"
 }
 ]
