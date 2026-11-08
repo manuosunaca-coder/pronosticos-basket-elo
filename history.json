@@ -1041,7 +1041,10 @@
 "pick_prob": 72.3,
 "margin": 6.0,
 "conf": 6,
-"created": "2026-10-29T07:26+00:00"
+"created": "2026-10-29T07:26+00:00",
+"score": "99-91",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-08|Recoletas Salud San Pablo Burgos|Valencia Basket",
@@ -1060,7 +1063,10 @@
 "pick_prob": 67.4,
 "margin": 4.5,
 "conf": 5,
-"created": "2026-10-29T07:26+00:00"
+"created": "2026-10-29T07:26+00:00",
+"score": "93-100",
+"result": "2",
+"win": true
 },
 {
 "key": "ACB|2026-11-08|La Laguna Tenerife|Asisa Joventut",
@@ -1079,7 +1085,10 @@
 "pick_prob": 63.1,
 "margin": 3.3,
 "conf": 4,
-"created": "2026-10-29T07:26+00:00"
+"created": "2026-10-29T07:26+00:00",
+"score": "80-74",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-08|Casademont Zaragoza|Unicaja",
@@ -1342,7 +1351,7 @@
 "hid": "breogan",
 "aid": "burgos",
 "pick": "1",
-"pick_prob": 63.3,
+"pick_prob": 63.4,
 "margin": 3.4,
 "conf": 4,
 "created": "2026-11-04T07:41+00:00"
@@ -1361,9 +1370,9 @@
 "hid": "andorra",
 "aid": "tenerife",
 "pick": "2",
-"pick_prob": 60.4,
-"margin": 2.6,
-"conf": 3,
+"pick_prob": 61.1,
+"margin": 2.8,
+"conf": 4,
 "created": "2026-11-04T07:41+00:00"
 },
 {
@@ -1380,8 +1389,8 @@
 "hid": "joventut",
 "aid": "zaragoza",
 "pick": "1",
-"pick_prob": 71.1,
-"margin": 5.6,
+"pick_prob": 70.5,
+"margin": 5.4,
 "conf": 6,
 "created": "2026-11-04T07:41+00:00"
 },
@@ -1399,8 +1408,8 @@
 "hid": "valencia",
 "aid": "coruna",
 "pick": "1",
-"pick_prob": 90.5,
-"margin": 14.0,
+"pick_prob": 90.8,
+"margin": 14.2,
 "conf": 10,
 "created": "2026-11-05T07:42+00:00"
 },
@@ -1456,8 +1465,8 @@
 "hid": "barca",
 "aid": "obradoiro",
 "pick": "1",
-"pick_prob": 75.6,
-"margin": 7.0,
+"pick_prob": 76.1,
+"margin": 7.2,
 "conf": 7,
 "created": "2026-11-05T07:42+00:00"
 },
