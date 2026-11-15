@@ -1459,7 +1459,10 @@
 "pick_prob": 90.5,
 "margin": 14.0,
 "conf": 10,
-"created": "2026-11-05T07:42+00:00"
+"created": "2026-11-05T07:42+00:00",
+"score": "111-97",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-15|iLERNA Lleida|Kids&Us Manresa",
@@ -1478,7 +1481,10 @@
 "pick_prob": 54.3,
 "margin": 1.1,
 "conf": 2,
-"created": "2026-11-05T07:42+00:00"
+"created": "2026-11-05T07:42+00:00",
+"score": "92-98",
+"result": "2",
+"win": false
 },
 {
 "key": "ACB|2026-11-15|Unicaja|FIATC Girona",
@@ -1497,7 +1503,10 @@
 "pick_prob": 68.3,
 "margin": 4.8,
 "conf": 5,
-"created": "2026-11-05T07:42+00:00"
+"created": "2026-11-05T07:42+00:00",
+"score": "82-70",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-15|Barça|Monbus Obradoiro",
@@ -1950,8 +1959,8 @@
 "hid": "burgos",
 "aid": "unicaja",
 "pick": "1",
-"pick_prob": 54.7,
-"margin": 1.2,
+"pick_prob": 53.8,
+"margin": 0.9,
 "conf": 2,
 "created": "2026-11-11T07:39+00:00"
 },
@@ -1969,8 +1978,8 @@
 "hid": "manresa",
 "aid": "andorra",
 "pick": "1",
-"pick_prob": 63.9,
-"margin": 3.6,
+"pick_prob": 65.1,
+"margin": 3.9,
 "conf": 4,
 "created": "2026-11-11T07:39+00:00"
 },
@@ -2007,8 +2016,8 @@
 "hid": "obradoiro",
 "aid": "girona",
 "pick": "1",
-"pick_prob": 63.1,
-"margin": 3.3,
+"pick_prob": 64.0,
+"margin": 3.6,
 "conf": 4,
 "created": "2026-11-12T07:42+00:00"
 },
@@ -2045,8 +2054,8 @@
 "hid": "coruna",
 "aid": "lleida",
 "pick": "1",
-"pick_prob": 59.7,
-"margin": 2.4,
+"pick_prob": 60.6,
+"margin": 2.7,
 "conf": 3,
 "created": "2026-11-12T07:42+00:00"
 },
@@ -2064,8 +2073,8 @@
 "hid": "valencia",
 "aid": "breogan",
 "pick": "1",
-"pick_prob": 81.6,
-"margin": 9.2,
+"pick_prob": 81.8,
+"margin": 9.3,
 "conf": 8,
 "created": "2026-11-12T07:42+00:00"
 },
