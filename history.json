@@ -1789,7 +1789,10 @@
 "pick_prob": 57.6,
 "margin": 1.9,
 "conf": 3,
-"created": "2026-11-08T07:28+00:00"
+"created": "2026-11-08T07:28+00:00",
+"score": "83-79",
+"result": "1",
+"win": false
 },
 {
 "key": "EL|2026-11-19|Maccabi Rapyd Tel Aviv|Dubai Basketball",
@@ -1938,8 +1941,8 @@
 "hid": "OLY",
 "aid": "MAD",
 "pick": "1",
-"pick_prob": 67.2,
-"margin": 4.4,
+"pick_prob": 68.1,
+"margin": 4.7,
 "conf": 5,
 "created": "2026-11-10T07:36+00:00"
 },
@@ -1976,9 +1979,9 @@
 "hid": "PAR",
 "aid": "BES",
 "pick": "1",
-"pick_prob": 61.2,
-"margin": 2.8,
-"conf": 4,
+"pick_prob": 60.1,
+"margin": 2.6,
+"conf": 3,
 "created": "2026-11-10T07:36+00:00"
 },
 {
@@ -2166,9 +2169,9 @@
 "hid": "BES",
 "aid": "PRS",
 "pick": "1",
-"pick_prob": 60.9,
-"margin": 2.7,
-"conf": 3,
+"pick_prob": 61.9,
+"margin": 3.0,
+"conf": 4,
 "created": "2026-11-14T07:28+00:00"
 },
 {
@@ -2337,8 +2340,8 @@
 "hid": "MAD",
 "aid": "ZAL",
 "pick": "1",
-"pick_prob": 69.9,
-"margin": 5.2,
+"pick_prob": 68.9,
+"margin": 4.9,
 "conf": 5,
 "created": "2026-11-15T07:31+00:00"
 }
