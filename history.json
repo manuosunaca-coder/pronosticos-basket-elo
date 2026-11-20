@@ -2003,6 +2003,25 @@
 "created": "2026-11-10T07:36+00:00"
 },
 {
+"key": "EL|2026-11-20|Partizan Mozzart Bet Belgrade|Besiktas Fuzul Istanbul",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-11-20",
+"time": "20:45",
+"round": "J13",
+"home": "Partizan Mozzart Bet Belgrade",
+"away": "Besiktas Fuzul Istanbul",
+"hid": "PAR",
+"aid": "BES",
+"pick": "1",
+"pick_prob": 60.1,
+"margin": 2.6,
+"conf": 3,
+"created": "2026-11-20T16:13+00:00"
+},
+{
 "key": "ACB|2026-11-21|Recoletas Salud San Pablo Burgos|Unicaja",
 "lg": "ACB",
 "league": "Liga Endesa",
@@ -2191,6 +2210,25 @@
 "margin": 2.9,
 "conf": 4,
 "created": "2026-11-14T07:28+00:00"
+},
+{
+"key": "EL|2026-11-24|Besiktas Fuzul Istanbul|Paris Basketball",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-11-24",
+"time": "18:00",
+"round": "J14",
+"home": "Besiktas Fuzul Istanbul",
+"away": "Paris Basketball",
+"hid": "BES",
+"aid": "PRS",
+"pick": "1",
+"pick_prob": 61.5,
+"margin": 2.9,
+"conf": 4,
+"created": "2026-11-20T16:13+00:00"
 },
 {
 "key": "EL|2026-11-24|Crvena Zvezda Meridianbet Belgrade|Virtus Bologna",
