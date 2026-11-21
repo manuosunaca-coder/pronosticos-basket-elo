@@ -1943,7 +1943,10 @@
 "pick_prob": 74.8,
 "margin": 6.7,
 "conf": 7,
-"created": "2026-11-10T07:36+00:00"
+"created": "2026-11-10T07:36+00:00",
+"score": "107-81",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-11-20|Olympiacos Piraeus|Real Madrid",
@@ -1962,7 +1965,10 @@
 "pick_prob": 68.1,
 "margin": 4.7,
 "conf": 5,
-"created": "2026-11-10T07:36+00:00"
+"created": "2026-11-10T07:36+00:00",
+"score": "92-76",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-11-20|FC Barcelona|Crvena Zvezda Meridianbet Belgrade",
@@ -1981,7 +1987,10 @@
 "pick_prob": 62.8,
 "margin": 3.3,
 "conf": 4,
-"created": "2026-11-10T07:36+00:00"
+"created": "2026-11-10T07:36+00:00",
+"score": "100-103",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-20|Partizan Mozzart Bet Belgrade|Besiktas Istanbul",
@@ -2000,7 +2009,10 @@
 "pick_prob": 60.1,
 "margin": 2.6,
 "conf": 3,
-"created": "2026-11-10T07:36+00:00"
+"created": "2026-11-10T07:36+00:00",
+"score": "91-87",
+"result": "1",
+"win": true
 },
 {
 "key": "EL|2026-11-20|Partizan Mozzart Bet Belgrade|Besiktas Fuzul Istanbul",
@@ -2019,7 +2031,10 @@
 "pick_prob": 60.1,
 "margin": 2.6,
 "conf": 3,
-"created": "2026-11-20T16:13+00:00"
+"created": "2026-11-20T16:13+00:00",
+"score": "91-87",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-21|Recoletas Salud San Pablo Burgos|Unicaja",
@@ -2225,9 +2240,9 @@
 "hid": "BES",
 "aid": "PRS",
 "pick": "1",
-"pick_prob": 61.5,
-"margin": 2.9,
-"conf": 4,
+"pick_prob": 60.8,
+"margin": 2.7,
+"conf": 3,
 "created": "2026-11-20T16:13+00:00"
 },
 {
@@ -2244,8 +2259,8 @@
 "hid": "RED",
 "aid": "VIR",
 "pick": "1",
-"pick_prob": 77.6,
-"margin": 7.7,
+"pick_prob": 78.4,
+"margin": 8.0,
 "conf": 7,
 "created": "2026-11-14T07:28+00:00"
 },
@@ -2301,8 +2316,8 @@
 "hid": "ASV",
 "aid": "MIL",
 "pick": "1",
-"pick_prob": 54.2,
-"margin": 1.1,
+"pick_prob": 53.0,
+"margin": 0.7,
 "conf": 2,
 "created": "2026-11-14T07:28+00:00"
 },
@@ -2320,8 +2335,8 @@
 "hid": "BAR",
 "aid": "ULK",
 "pick": "1",
-"pick_prob": 59.2,
-"margin": 2.3,
+"pick_prob": 58.2,
+"margin": 2.0,
 "conf": 3,
 "created": "2026-11-14T07:28+00:00"
 },
@@ -2339,8 +2354,8 @@
 "hid": "DUB",
 "aid": "PAR",
 "pick": "1",
-"pick_prob": 70.9,
-"margin": 5.5,
+"pick_prob": 70.3,
+"margin": 5.4,
 "conf": 6,
 "created": "2026-11-15T07:31+00:00"
 },
@@ -2358,8 +2373,8 @@
 "hid": "OLY",
 "aid": "HTA",
 "pick": "1",
-"pick_prob": 77.3,
-"margin": 7.6,
+"pick_prob": 78.1,
+"margin": 7.9,
 "conf": 7,
 "created": "2026-11-15T07:31+00:00"
 },
@@ -2377,8 +2392,8 @@
 "hid": "BAS",
 "aid": "IST",
 "pick": "2",
-"pick_prob": 54.3,
-"margin": 1.1,
+"pick_prob": 55.6,
+"margin": 1.4,
 "conf": 2,
 "created": "2026-11-15T07:31+00:00"
 },
@@ -2396,8 +2411,8 @@
 "hid": "MAD",
 "aid": "ZAL",
 "pick": "1",
-"pick_prob": 71.1,
-"margin": 5.6,
+"pick_prob": 70.2,
+"margin": 5.3,
 "conf": 6,
 "created": "2026-11-15T07:31+00:00"
 }
