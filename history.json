@@ -2119,7 +2119,10 @@
 "pick_prob": 62.9,
 "margin": 3.3,
 "conf": 4,
-"created": "2026-11-12T07:42+00:00"
+"created": "2026-11-12T07:42+00:00",
+"score": "91-81",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-22|Surne Bilbao|Kosner Baskonia",
@@ -2138,7 +2141,10 @@
 "pick_prob": 52.3,
 "margin": 0.6,
 "conf": 2,
-"created": "2026-11-12T07:42+00:00"
+"created": "2026-11-12T07:42+00:00",
+"score": "84-80",
+"result": "1",
+"win": false
 },
 {
 "key": "ACB|2026-11-22|Leyma Coruña|iLERNA Lleida",
@@ -2157,7 +2163,10 @@
 "pick_prob": 60.6,
 "margin": 2.7,
 "conf": 3,
-"created": "2026-11-12T07:42+00:00"
+"created": "2026-11-12T07:42+00:00",
+"score": "113-100",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-22|Valencia Basket|Río Breogán",
