@@ -2053,7 +2053,10 @@
 "pick_prob": 53.8,
 "margin": 0.9,
 "conf": 2,
-"created": "2026-11-11T07:39+00:00"
+"created": "2026-11-11T07:39+00:00",
+"score": "71-94",
+"result": "2",
+"win": false
 },
 {
 "key": "ACB|2026-11-21|Kids&Us Manresa|MoraBanc Andorra",
@@ -2072,7 +2075,10 @@
 "pick_prob": 65.1,
 "margin": 3.9,
 "conf": 4,
-"created": "2026-11-11T07:39+00:00"
+"created": "2026-11-11T07:39+00:00",
+"score": "90-86",
+"result": "1",
+"win": true
 },
 {
 "key": "ACB|2026-11-21|UCAM Murcia|Casademont Zaragoza",
@@ -2091,7 +2097,10 @@
 "pick_prob": 71.9,
 "margin": 5.8,
 "conf": 6,
-"created": "2026-11-11T07:39+00:00"
+"created": "2026-11-11T07:39+00:00",
+"score": "72-74",
+"result": "2",
+"win": false
 },
 {
 "key": "ACB|2026-11-22|Monbus Obradoiro|FIATC Girona",
