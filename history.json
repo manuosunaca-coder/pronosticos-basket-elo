@@ -2556,5 +2556,24 @@
 "margin": 0.3,
 "conf": 1,
 "created": "2026-11-23T07:58+00:00"
+},
+{
+"key": "EL|2026-12-03|Kosner Baskonia Vitoria-Gasteiz|Maccabi Rapyd Tel Aviv",
+"lg": "EL",
+"league": "Euroliga",
+"flag": "eu",
+"season": 2026,
+"date": "2026-12-03",
+"time": "21:00",
+"round": "J15",
+"home": "Kosner Baskonia Vitoria-Gasteiz",
+"away": "Maccabi Rapyd Tel Aviv",
+"hid": "BAS",
+"aid": "TEL",
+"pick": "1",
+"pick_prob": 54.6,
+"margin": 1.1,
+"conf": 2,
+"created": "2026-11-23T16:22+00:00"
 }
 ]
