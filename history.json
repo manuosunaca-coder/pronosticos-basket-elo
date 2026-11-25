@@ -2251,7 +2251,10 @@
 "pick_prob": 61.5,
 "margin": 2.9,
 "conf": 4,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "76-88",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|Besiktas Fuzul Istanbul|Paris Basketball",
@@ -2270,7 +2273,10 @@
 "pick_prob": 60.8,
 "margin": 2.7,
 "conf": 3,
-"created": "2026-11-20T16:13+00:00"
+"created": "2026-11-20T16:13+00:00",
+"score": "76-88",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|Crvena Zvezda Meridianbet Belgrade|Virtus Bologna",
@@ -2289,7 +2295,10 @@
 "pick_prob": 78.4,
 "margin": 8.0,
 "conf": 7,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "84-108",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|FC Bayern Munich|Maccabi Rapyd Tel Aviv",
@@ -2308,7 +2317,10 @@
 "pick_prob": 65.9,
 "margin": 4.1,
 "conf": 5,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "79-87",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|Valencia Basket|Panathinaikos AKTOR Athens",
@@ -2327,7 +2339,10 @@
 "pick_prob": 66.5,
 "margin": 4.3,
 "conf": 5,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "83-86",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|LDLC ASVEL Villeurbanne|Armani Olimpia Milan",
@@ -2346,7 +2361,10 @@
 "pick_prob": 53.0,
 "margin": 0.7,
 "conf": 2,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "91-95",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-24|FC Barcelona|Fenerbahce Tarfin Istanbul",
@@ -2365,7 +2383,10 @@
 "pick_prob": 58.2,
 "margin": 2.0,
 "conf": 3,
-"created": "2026-11-14T07:28+00:00"
+"created": "2026-11-14T07:28+00:00",
+"score": "77-83",
+"result": "2",
+"win": false
 },
 {
 "key": "EL|2026-11-25|Dubai Basketball|Partizan Mozzart Bet Belgrade",
@@ -2457,8 +2478,8 @@
 "hid": "IST",
 "aid": "PAM",
 "pick": "2",
-"pick_prob": 54.9,
-"margin": 1.2,
+"pick_prob": 53.7,
+"margin": 0.9,
 "conf": 2,
 "created": "2026-11-23T07:58+00:00"
 },
@@ -2476,9 +2497,9 @@
 "hid": "ULK",
 "aid": "RED",
 "pick": "1",
-"pick_prob": 64.5,
-"margin": 3.7,
-"conf": 4,
+"pick_prob": 70.2,
+"margin": 5.3,
+"conf": 6,
 "created": "2026-11-23T07:58+00:00"
 },
 {
@@ -2495,9 +2516,9 @@
 "hid": "HTA",
 "aid": "MIL",
 "pick": "1",
-"pick_prob": 74.4,
-"margin": 6.6,
-"conf": 7,
+"pick_prob": 73.7,
+"margin": 6.4,
+"conf": 6,
 "created": "2026-11-23T07:58+00:00"
 },
 {
@@ -2514,9 +2535,9 @@
 "hid": "MUN",
 "aid": "PRS",
 "pick": "1",
-"pick_prob": 55.4,
-"margin": 1.3,
-"conf": 2,
+"pick_prob": 51.4,
+"margin": 0.3,
+"conf": 1,
 "created": "2026-11-23T07:58+00:00"
 },
 {
@@ -2533,8 +2554,8 @@
 "hid": "MAD",
 "aid": "BAR",
 "pick": "1",
-"pick_prob": 70.8,
-"margin": 5.5,
+"pick_prob": 71.9,
+"margin": 5.8,
 "conf": 6,
 "created": "2026-11-23T07:58+00:00"
 },
@@ -2552,9 +2573,9 @@
 "hid": "VIR",
 "aid": "PAR",
 "pick": "1",
-"pick_prob": 51.4,
-"margin": 0.3,
-"conf": 1,
+"pick_prob": 56.5,
+"margin": 1.6,
+"conf": 2,
 "created": "2026-11-23T07:58+00:00"
 },
 {
@@ -2571,8 +2592,8 @@
 "hid": "BAS",
 "aid": "TEL",
 "pick": "1",
-"pick_prob": 54.6,
-"margin": 1.1,
+"pick_prob": 52.7,
+"margin": 0.7,
 "conf": 2,
 "created": "2026-11-23T16:22+00:00"
 },
@@ -2590,9 +2611,9 @@
 "hid": "BES",
 "aid": "PAN",
 "pick": "2",
-"pick_prob": 50.5,
-"margin": 0.1,
-"conf": 1,
+"pick_prob": 53.8,
+"margin": 0.9,
+"conf": 2,
 "created": "2026-11-24T07:47+00:00"
 },
 {
@@ -2628,9 +2649,66 @@
 "hid": "OLY",
 "aid": "ASV",
 "pick": "1",
-"pick_prob": 90.2,
-"margin": 13.8,
+"pick_prob": 90.5,
+"margin": 14.0,
 "conf": 10,
 "created": "2026-11-24T07:47+00:00"
+},
+{
+"key": "ACB|2026-12-05|iLERNA Lleida|La Laguna Tenerife",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-12-05",
+"time": "18:00",
+"round": "J10",
+"home": "iLERNA Lleida",
+"away": "La Laguna Tenerife",
+"hid": "lleida",
+"aid": "tenerife",
+"pick": "2",
+"pick_prob": 69.5,
+"margin": 5.1,
+"conf": 5,
+"created": "2026-11-25T07:50+00:00"
+},
+{
+"key": "ACB|2026-12-05|Monbus Obradoiro|Surne Bilbao",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-12-05",
+"time": "19:30",
+"round": "J10",
+"home": "Monbus Obradoiro",
+"away": "Surne Bilbao",
+"hid": "obradoiro",
+"aid": "bilbao",
+"pick": "1",
+"pick_prob": 56.9,
+"margin": 1.7,
+"conf": 3,
+"created": "2026-11-25T07:50+00:00"
+},
+{
+"key": "ACB|2026-12-05|Casademont Zaragoza|Río Breogán",
+"lg": "ACB",
+"league": "Liga Endesa",
+"flag": "es",
+"season": 2026,
+"date": "2026-12-05",
+"time": "21:00",
+"round": "J10",
+"home": "Casademont Zaragoza",
+"away": "Río Breogán",
+"hid": "zaragoza",
+"aid": "breogan",
+"pick": "1",
+"pick_prob": 56.2,
+"margin": 1.6,
+"conf": 2,
+"created": "2026-11-25T07:50+00:00"
 }
 ]
